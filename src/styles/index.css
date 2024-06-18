@@ -1,0 +1,495 @@
+@media only screen and (min-width: 768px) {
+  /* UNIVERSAL DECLARATIONS BEGINS HERE....  */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.hidden{
+  opacity: 0;
+  transition: all 1s;
+}
+
+.show{
+  opacity: 1;
+}
+
+/* UNIVERSAL DECLARATIONS END HERE....  */
+
+/* NAV PART BEGINS HERE....  */
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+  padding: 1.5em;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+nav .nav-left{
+  display: flex;
+  font-size: 2rem;
+  font-weight: 700;
+  align-items: center;
+}
+
+nav img{
+  width: 20%;
+  margin: 0px 0.8em;
+}
+
+nav .nav-right{
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  align-items: center;
+}
+
+nav .nav-right a{
+  margin-right: 0.8em;
+  text-decoration: none;
+  color: black;
+}
+/* NAV PART ENDS HERE.... */
+
+/* HERO PART BEGINS HERE....*/
+
+.hero{
+  background-image: url("images/waste_hero_img_blurred.png");
+  background-repeat: no-repeat;
+  width: auto;
+  height: 80svh;
+  padding: 9.2em;
+}
+
+.hero-title{
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
+.hero-content{
+  font-size: 2rem;
+  margin-left: 8em;
+  color: black;
+  font-weight: 500;
+  font-family: "Edu NSW ACT Foundation", sans-serif;
+}
+
+/* HERO PART ENDS HERE.... */
+
+/* ABOUT PART BEGINS HERE.... */
+
+.about{
+  display: flex;
+  padding: 5em 0em;
+  background-color: #e9e9e9;
+  justify-content: space-evenly;
+}
+
+.about .about-left img{
+  width: 35em;
+  height: 28em;
+  border-radius: 50px;
+}
+
+.about-title{
+  font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+.about-content{
+  font-size: 2rem;
+  color: black;
+  font-weight: 500;
+  line-height: 60px;
+  font-family: "Edu NSW ACT Foundation", sans-serif;
+  margin-bottom: 1em;
+}
+
+.about-content span{
+  font-weight: 900;
+  font-size: 2.5rem
+}
+
+.about-content-down{
+  font-size: 2rem;
+  color: black;
+  font-weight: 500;
+  line-height: 60px;
+  font-family: "Edu NSW ACT Foundation", sans-serif;
+  margin-bottom: 0.8em;
+}
+
+.about-content-down span{
+  margin-left: 2em;
+}
+
+.about-us-btn-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-us-btn {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.2rem;
+  font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 30%;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow .6s;
+}
+
+.about-us-btn:hover {
+  box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+}
+
+/* ABOUT PART ENDS HERE....*/
+
+/* PROJECT_DETAILS PART BEGINS HERE.... */
+
+.project-details{
+  display: flex;
+  padding: 5em 2em 3em 0em;
+  background: rgb(42,191,0);
+  background: radial-gradient(circle, rgba(42,191,0,1) 10%, rgba(21,143,6,1) 46%, rgba(5,106,10,1) 77%, rgba(1,98,11,1) 94%); 
+  justify-content: space-evenly;
+}
+
+.project-details-left img{
+  height: 20em;
+  width: 36em;
+  border-radius: 20px;
+  margin-bottom: 3em;
+}
+
+.project-details-content-left-title{
+  font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1em;
+  color: white;
+}
+
+.project-details-content-left-content{
+  font-size: 1.8rem;
+  color: white;
+  font-weight: 500;
+  font-family: "Edu NSW ACT Foundation", sans-serif;
+  line-height: 40px;
+  margin-bottom: 1em;
+}
+
+.project-details-content-left-content span{
+  font-size: 2.4rem;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.project-details-content-left-content-signup-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  margin-top: 2em;  
+}
+
+.button-88 {
+  display: flex;
+  align-items: center;
+  font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(0deg, #175616 37%, #248721 63%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+  letter-spacing: 0.05em;
+  border-radius: 20px;
+  cursor: pointer;
+  user-select: none;
+  touch-action: manipulation;
+}
+
+.card{
+  margin-bottom: 2em;
+  border-radius: 20px;
+  padding: 2em;
+  background-color: #4B9644;
+}
+
+.card-title{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1em;
+  color: white;
+}
+
+.card-content{
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 500;
+  font-family: "Edu NSW ACT Foundation", sans-serif;
+}
+
+/* PROJECT_DETAILS PART ENDS HERE....*/
+
+/* PROGRAMS PART BEGINS HERE.... */
+.our-programs{
+  display: flex;
+  flex-direction: column;
+  padding: 5em 5em;
+}
+
+.our-programs-title{
+  font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.our-programs-content{
+  display: flex;
+  justify-content: space-evenly;
+}
+/* PROGRAMS PART ENDS HERE....*/
+
+/* FOOTER PART BEGINS HERE.... */
+footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-top{
+  display: flex;
+  background: rgb(46,28,0);
+  background: linear-gradient(0deg, rgba(46,28,0,1) 35%, rgba(80,48,0,1) 81%);
+  padding: 3em 0em 1em 0em;
+  justify-content: space-evenly;
+}
+
+.footer-hero-summary{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-hero-summary-title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1em;
+  color: white;
+}
+
+.footer-hero-summary-title img{
+  width: 4em;
+  /* margin-right: 1em; */
+}
+
+.footer-hero-summary-content{
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 500;
+  font-family: "Edu NSW ACT Foundation", sans-serif;  
+}
+
+.footer-navbar-summary{
+  display: flex;
+  padding: 2em;
+  flex-direction: column;
+}
+
+.footer-navbar-summary-title{
+  text-align: center;
+  font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1em;
+  color: white;
+}
+
+.footer-navbar-summary-content{
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 500;
+  font-family: "Edu NSW ACT Foundation", sans-serif;  
+}
+
+.footer-navbar-summary-content a{
+  text-decoration: none;
+  color: white;
+  line-height: 60px;
+}
+
+.footer-contactUs-summary{
+  display: flex;
+  padding: 2em;
+  flex-direction: column;
+}
+
+.footer-contactUs-summary-title{
+  text-align: center;
+  font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1em;
+  color: white;
+}
+
+.footer-contactUs-summary-content{
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 500;
+  font-family: "Edu NSW ACT Foundation", sans-serif;  
+}
+
+.footer-bottom{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2em;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(35,21,0,1) 23%, rgba(39,23,0,1) 50%, rgba(46,28,0,1) 62%); 
+}
+
+.footer-bottom-left{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  color: white;
+  font-weight: 500;
+  font-family: "Edu NSW ACT Foundation", sans-serif;
+  gap: 1em;
+}
+
+.footer-bottom-left img{
+  width: 3em;
+}
+
+.footer-bottom-right{
+  font-size: 1rem;
+  color: white;
+  font-weight: 500;
+  font-family: "Edu NSW ACT Foundation", sans-serif;
+}
+
+/* FOOTER PART ENDS HERE....*/
+} 
+@media only screen and (max-width: 600px){
+  /* UNIVERSAL DECLARATIONS BEGINS HERE....  */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.hidden{
+  opacity: 0;
+  transition: all 1s;
+}
+
+.show{
+  opacity: 1;
+}
+
+/* UNIVERSAL DECLARATIONS END HERE....  */
+
+/* NAV PART BEGINS HERE....  */
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+  padding: 1.5em;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+nav .nav-left{
+  display: flex;
+  font-size: 1.5em;
+  font-weight: 700;
+  align-items: center;
+}
+
+nav img{
+  width: 20%;
+  margin: 0px 0.8em;
+}
+
+nav .nav-right{
+  display: none;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  align-items: center;
+}
+
+nav .nav-right a{
+  margin-right: 0.8em;
+  text-decoration: none;
+  color: black;
+}
+/* NAV PART ENDS HERE.... */
+
+/* HERO PART BEGINS HERE....*/
+
+.hero{
+  background-image: url("images/waste_hero_img_blurred.png");
+  background-repeat: no-repeat;
+  width: auto;
+  height: 80svh;
+  padding-left: 3.2em;
+  padding-top: 6em;
+}
+
+.hero-title{
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
+.hero-content{
+  font-size: 1.6rem;
+  margin-left: 1em;
+  color: black;
+  font-weight: 500;
+  font-family: "Edu NSW ACT Foundation", sans-serif;
+}
+
+/* HERO PART ENDS HERE.... */
+}
